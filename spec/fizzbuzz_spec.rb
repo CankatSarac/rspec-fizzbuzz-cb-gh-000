@@ -21,18 +21,18 @@ end
 
    it "should return `Buzz` for number divisible by 5" do
     expect(fizzBuzz(5)).to eq "Buzz"
-  end	  
+  end
 
   it "should return `FizzBuzz` for number divisible by 3 and 5" do
    expect(fizzBuzz(15)).to eq "FizzBuzz"
- end 
+ end
 
  it "should return `FizzBuzz` for number divisible by 3 and 5" do
    expect(fizzBuzz(90)).to eq "FizzBuzz"
- end	
+ end
 
  it "should return 7 since it is indivisible by 3 and 5" do
      expect(fizzBuzz(7)).to eq 7
-   end	  
- end	
+   end
+ end
  
